@@ -87,7 +87,7 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #33414a;
+  background-color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* Force Hardware Acceleration */
@@ -529,7 +529,7 @@ header::before {
   z-index: 2;
   min-height: 100vh;
   padding-top: 50px;
-  background-color: #f2f2f2;
+  background-color: #fff;
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
   transition: transform 0.3s;
