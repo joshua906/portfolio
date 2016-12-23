@@ -146,7 +146,7 @@ header::before {
 .cd-logo img {
   display: block;
   max-width: 100%;
-  margin-top: 14px;
+  margin-top: 45px;
 }
 @media only screen and (min-width: 1024px) {
   .cd-logo {
@@ -244,6 +244,7 @@ header::before {
 
 .cd-main-nav {
   position: fixed;
+  padding-top: 130px;
   z-index: 1;
   top: 0;
   right: 0;
@@ -252,7 +253,7 @@ header::before {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   visibility: hidden;
-  background: #1e262c;
+  background: #000;
   -webkit-transition: visibility 0s 0.3s;
   -moz-transition: visibility 0s 0.3s;
   transition: visibility 0s 0.3s;
@@ -261,7 +262,6 @@ header::before {
   display: block;
   font-size: 1.8rem;
   padding: .9em 2em .9em 1em;
-  border-bottom: 1px solid #33414a;
   color: #ffffff;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   -moz-transition: -moz-transform 0.3s, opacity 0.3s;
