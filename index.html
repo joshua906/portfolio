@@ -59,12 +59,57 @@
 			</div>
 		</div>
 		<!-- the work-->
-		<div class="work">
-			<div class="container">
-				<div class="col-md-6 col-lg-6"></div>
-				<div class="col-md-6 col-lg-6"></div>
+		<div class="container">
+		
+			  <!-- width of .grid-sizer used for columnWidth -->
+			<div class="row">	 
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				  <div class="grid" >
+				   <div class="grid-sizer">
+					  <div class="grid-item">
+						  <img src="resources/img/black-image.jpg" width="600" height="450" alt=""/>
+					 </div>
+				  </div>
+				</div>
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				  <div class="grid">
+				   <div class="grid-sizer">
+					  <div class="grid-item"><img src="resources/img/black-image.jpg" width="600" height="450" alt=""/></div>
+					  </div>
+				  </div>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6">
+			  <div class="grid">
+			   <div class="grid-sizer">
+				  <div class="grid-item"><img src="resources/img/black-image.jpg" width="600" height="450" alt=""/></div>
+				  </div>
+			  </div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6">
+			  <div class="grid">
+			   <div class="grid-sizer">
+				  <div class="grid-item"><img src="resources/img/black-image.jpg" width="600" height="450" alt=""/></div>
+				  </div>
+			  </div>
+			</div>
 			</div>
 		</div>
+
+		<!--
+		<div class="work">
+			<div class="container">
+				<div class="col-md-6 col-lg-6">
+			    	<img src="resources/img/black-image.jpg" width="600" height="450" alt=""/> 
+			    </div>
+				<div class="col-md-6 col-lg-6"></div>
+			</div>
+		</div>-->
 		
 		<!-- footer -->
 		<div class="footer">
@@ -78,7 +123,18 @@
 			</div>
 		</div>
 	</main>
-<script src="resources/js/jquery-2.1.1.js"></script>
-<script src="resources/js/main.js"></script> <!-- Resource jQuery -->
+	<!-- Resource jQuery -->
+	<script src="resources/js/jquery-2.1.1.js"></script>
+	<script src="resources/js/main.js"></script>
+	<script src="resources/js/masonry.pkgd.min.js"></script> 
+	<script>
+		$('.grid').masonry({
+		  // set itemSelector so .grid-sizer is not used in layout
+		  itemSelector: '.grid-item',
+		  // use element for option
+		  columnWidth: '.grid-sizer',
+		  percentPosition: true
+		})
+	</script>
 </body>
 </html>

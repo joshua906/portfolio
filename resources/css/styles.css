@@ -629,3 +629,22 @@ header::before {
 .content-heading {
 	padding-top: 150px;
 }
+
+
+/************ The Work Sections *******************/
+
+.grid-sizer{ 
+	width: 100%;
+	margin: 25px;
+}
+.grid-item { 
+	width: 100%;
+	overflow: hidden;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/************ Footer *******************/
