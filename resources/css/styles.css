@@ -142,6 +142,7 @@ header::before {
   transform: translateZ(0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  margin-top: 44px;
 }
 .cd-logo img {
   display: block;
