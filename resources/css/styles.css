@@ -708,3 +708,9 @@ input[type=submit] {
     -webkit-border-radius: 1px;
 }
 /************ Footer *******************/
+.footer{
+	margin-top: 20px;
+    color: #fff;
+    background-color: #222;
+    padding: 32px 0px;
+}
