@@ -21,7 +21,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -84,7 +83,7 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #fff;
+  background: rgba(255,255,255,0.75);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* Force Hardware Acceleration */
@@ -130,7 +129,7 @@ header::before {
 .cd-logo {
   display: inline-block;
   height: 100%;
-  margin-left: 15px;
+  margin-left: 0px;
   /* remove jump on iOS devices - when we fire the navigation */
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -150,7 +149,7 @@ header::before {
   .cd-logo {
     position: absolute;
     z-index: 2;
-    margin-left: 5%;
+    margin-left: 0%;
   }
   .cd-logo img {
     margin-top: 29px;
@@ -252,6 +251,7 @@ header::before {
   -webkit-overflow-scrolling: touch;
   visibility: hidden;
   background: #000;
+	
   -webkit-transition: visibility 0s 0.3s;
   -moz-transition: visibility 0s 0.3s;
   transition: visibility 0s 0.3s;
@@ -365,7 +365,7 @@ header::before {
     line-height: 80px;
     /* padding left = logo size + logo left position*/
     padding: 0 5% 0 calc(5% + 124px);
-    background: transparent;
+    background: rgba(255,255,255,0.95);
     text-align: right;
   }
   .cd-main-nav li {
@@ -631,6 +631,10 @@ p {
 	font-family: 'Arimo', sans-serif;
 	font-size: 15px;
 }
+.font-family{
+	font-family: 'Arimo', sans-serif;
+	font-weight: 700;
+}
 
 /************ Headings *******************/
 .main-hero{
@@ -640,7 +644,9 @@ p {
 
 
 /************ The Work Sections *******************/
-
+.portfolio-work {
+	margin-top: 20px;
+}
 .grid-sizer{ 
 	width: 100%;
 	margin: 25px;
@@ -664,7 +670,7 @@ p {
 	margin: 10px 0%;
 	min-width: 300px;
 	max-width: 650px;
-	max-height: 400px;
+	max-height: 600px;
 	width: 100%;
 	background: #3085a3;
 	text-align: center;
@@ -804,6 +810,10 @@ figure.effect-bubba:hover p {
 	transform: translate3d(0,0,0);
 }
 
+
+.clients{
+	margin-top: 20px;
+}
 /************ Contact Page ***************/
 
 input[type=text] {
