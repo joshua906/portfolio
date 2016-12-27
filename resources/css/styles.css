@@ -5,8 +5,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+html, body, div, span, applet, object, iframe, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -60,12 +59,10 @@ Primary style
 }
 
 html {
-  font-size: 62.5%;
+  
 }
 
 body {
-  font-size: 1.6rem;
-  font-family: "PT Sans", sans-serif;
   color: #33414a;
   background-color: #f2f2f2;
 }
@@ -628,6 +625,11 @@ header::before {
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Arimo', sans-serif;
+	font-weight: 700;
+}
+p {
+	font-family: 'Arimo', sans-serif;
+	font-size: 15px;
 }
 
 /************ Headings *******************/
@@ -659,9 +661,9 @@ h1,h2,h3,h4,h5,h6 {
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 10px 1%;
-	min-width: 320px;
-	
+	margin: 10px 0%;
+	min-width: 300px;
+	max-width: 650px;
 	max-height: 400px;
 	width: 100%;
 	background: #3085a3;
@@ -864,8 +866,8 @@ input[type=submit] {
 /************ Footer *******************/
 .footer{
 	margin-top: 20px;
-    color: #fff;
-    background-color: #222;
+    color: #222;
+    background-color: #f6f6f6;
     padding: 32px 0px;
 }
 
