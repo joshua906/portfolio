@@ -79,7 +79,7 @@ Main Components
 header {
   position: fixed;
   z-index: 3;
-  height: 125px;
+  height: 80px;
   width: 100%;
   top: 0;
   left: 0;
@@ -365,7 +365,7 @@ header::before {
     line-height: 80px;
     /* padding left = logo size + logo left position*/
     padding: 0 5% 0 calc(5% + 124px);
-    background: rgba(255,255,255,0.95);
+    background: rgba(255,255,255,0.75);
     text-align: right;
   }
   .cd-main-nav li {
@@ -629,11 +629,17 @@ h1,h2,h3,h4,h5,h6 {
 }
 p {
 	font-family: 'Arimo', sans-serif;
-	font-size: 15px;
+	font-size: 1.2em;
 }
 .font-family{
 	font-family: 'Arimo', sans-serif;
 	font-weight: 700;
+}
+.small-font-family {
+	font-family: 'Arimo', sans-serif;
+	font-weight: 400;
+	color: rgba(151,151,151,.7);
+	
 }
 
 /************ Headings *******************/
@@ -815,7 +821,20 @@ figure.effect-bubba:hover p {
 	margin-top: 20px;
 }
 /************ Contact Page ***************/
-
+.contact-background{
+	margin-top: 20px;
+	color: #fff
+}
+.contact-background img{
+	position:relative;
+}
+ .img-contact{
+	color: #fff;
+	background-image: url(../img/contact-background.jpg);
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 100%;
+}
 input[type=text] {
     padding: 15px;
     width: 100%;
@@ -875,7 +894,7 @@ input[type=submit] {
 }
 /************ Footer *******************/
 .footer{
-	margin-top: 20px;
+	margin-top: 50px;
     color: #222;
     background-color: #f6f6f6;
     padding: 32px 0px;
