@@ -892,6 +892,11 @@ input[type=submit] {
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;
 }
+/************** porfolio pages *************/
+
+.intro-text {
+	margin-top: 20px;
+}
 /************ Footer *******************/
 .footer{
 	margin-top: 50px;
