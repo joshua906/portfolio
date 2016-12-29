@@ -1083,6 +1083,29 @@ input[type=submit] {
 .intro-text {
 	margin-top: 20px;
 }
+.list-portfolio li span {
+    color: #000;
+    font-weight: bold;
+    min-width: 160px;
+    display: inline-block;
+}
+.list-portfolio {
+    padding: 10px 0;
+}
+.list-portfolio li {
+    display: inline-block;
+    width: 100%;
+    line-height: 24px;
+    padding: 8px 0;
+	font-size: 1.1em;
+}
+.single-postfolio img {
+    max-width: 100%;
+    height: auto !important;
+}
+.single-portfolio p {
+	font-size: 1.1em;
+}
 /************ Footer *******************/
 .footer{
 	margin-top: 50px;
