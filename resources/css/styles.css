@@ -77,7 +77,7 @@ Main Components
 
 -------------------------------- */
 header {
-  position: fixed;
+  position: ;
   z-index: 3;
   height: 80px;
   width: 100%;
@@ -259,7 +259,7 @@ header::before {
 .cd-main-nav a {
   display: block;
   font-size: 1.8rem;
-  padding: .9em 2em .9em 1em;
+  padding: .4em 2em .9em 1em;
   color: #ffffff;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   -moz-transition: -moz-transform 0.3s, opacity 0.3s;
@@ -364,7 +364,7 @@ header::before {
     height: 80px;
     line-height: 80px;
     /* padding left = logo size + logo left position*/
-    padding: 0 5% 0 calc(5% + 124px);
+    padding: 0 0% 0 calc(5% + 124px);
     background: rgba(255,255,255,0.75);
     text-align: right;
   }
@@ -543,7 +543,7 @@ header::before {
 }
 @media only screen and (min-width: 1024px) {
   .cd-main-content {
-    padding-top: 80px;
+    padding-top: 20px;
   }
   .cd-main-content.nav-is-visible {
     -webkit-transform: translateX(0);
@@ -640,6 +640,9 @@ p {
 	font-weight: 400;
 	color: rgba(151,151,151,.7);
 	
+}
+a {
+	color: #222;
 }
 
 /************ Headings *******************/
@@ -893,7 +896,9 @@ input[type=submit] {
     -webkit-border-radius: 1px;
 }
 /************** porfolio pages *************/
-
+.spacing{
+	margin-top: 50px;
+}
 .intro-text {
 	margin-top: 20px;
 }
