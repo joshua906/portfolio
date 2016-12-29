@@ -79,7 +79,7 @@ Main Components
 header {
   position: ;
   z-index: 3;
-  height: 80px;
+  height: 90px;
   width: 100%;
   top: 0;
   left: 0;
@@ -138,12 +138,12 @@ header::before {
   transform: translateZ(0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  margin-top: 44px;
+  margin-top: 20px;
 }
 .cd-logo img {
   display: block;
   max-width: 100%;
-  margin-top: 45px;
+  margin-top: 0px;
 }
 @media only screen and (min-width: 1024px) {
   .cd-logo {
@@ -152,7 +152,7 @@ header::before {
     margin-left: 0%;
   }
   .cd-logo img {
-    margin-top: 29px;
+    margin-top: 0px;
   }
 }
 
@@ -838,6 +838,9 @@ figure.effect-bubba:hover p {
 	height: 500px;
 	width: 100%;
 }
+.contact-form {
+	margin-top: 20px;
+}
 input[type=text] {
     padding: 15px;
     width: 100%;
@@ -905,8 +908,8 @@ input[type=submit] {
 /************ Footer *******************/
 .footer{
 	margin-top: 50px;
-    color: #222;
-    background-color: #f6f6f6;
+    color: #fff;
+    background-color: #222;
     padding: 32px 0px;
 }
 
