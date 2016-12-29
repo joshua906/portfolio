@@ -6,9 +6,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700" rel="stylesheet">
 	<link href="resources/css/styles.css" rel="stylesheet" type="text/css"> <!-- Resource style -->
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="resources/scripts/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="resources/js/modernizr.js"></script> <!-- Modernizr -->
+	
 
 
   	
@@ -17,18 +19,29 @@
 <body>
 	<header>
 	<div class="container">
-		<div class="cd-logo"><a href="#0"><img src="resources/img/matthews-logo.png" width="125" height="55" alt=""/></a></div>
+	
+		<div class="cd-logo">
+			<a href="#0">
+				<img src="resources/img/matthews-logo.png" width="125" height="55" alt=""/>
+			</a>
+		</div>
 
-		<nav class="cd-main-nav-wrapper">
-		 
-			<ul class="cd-main-nav pull-right">
-				<li><a href="#0">HOME</a></li>
-				<li><a href="#0">THE WORK</a></li>
-				<li><a href="#0">CONTACT</a></li>
-			</ul> <!-- .cd-main-nav -->
-		</nav> <!-- .cd-main-nav-wrapper -->
-		
-		<a href="#0" class="cd-nav-trigger"><span></span></a>
+			<div class="button_container" id="toggle">
+			  <span class="top"></span>
+			  <span class="middle"></span>
+			  <span class="bottom"></span>
+			</div>
+
+			<div class="overlay" id="overlay">
+			  <nav class="overlay-menu">
+				<ul>
+				  <li ><a href="#">Home</a></li>
+				  <li><a href="#">About</a></li>
+				  <li><a href="#">Work</a></li>
+				  <li><a href="#">Contact</a></li>
+				</ul>
+			  </nav>
+			</div>
 		</div>
 	</header>
 	
@@ -63,7 +76,7 @@
 		
 			  <!-- width of .grid-sizer used for columnWidth -->
 			<div class="row">	 
-			<div class="col-xs-12 col-sm-4 col-md-4">
+			<div class="col-xs-12 col-sm-6 col-md-4">
 				  <div class="grid" >
 				   <div class="grid-sizer">
 					  <div class="grid-item">
@@ -83,7 +96,7 @@
 				  </div>
 				</div>
 				</div>
-			<div class="col-xs-12 col-sm-4 col-md-4">
+			<div class="col-xs-12 col-sm-6 col-md-4">
 				  <div class="grid">
 				   <div class="grid-sizer">
 					  <div class="grid-item">
@@ -102,7 +115,7 @@
 				  </div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-4 col-md-4">
+			<div class="col-xs-12 col-sm-6 col-md-4">
 				  <div class="grid">
 				   <div class="grid-sizer">
 					  <div class="grid-item">
@@ -156,8 +169,10 @@
 		<div class="footer">
 			<div class="container">
 				<div class="col-md-6">
-					<h2>LOGO HERE</h2>
-					<p>Copyright Matthews Designs 2017</p> 
+					<div class="cd-logo">
+						<img src="resources/img/matthews-logo-white.png" width="125" height="55" alt=""/>
+					</div>
+					 
 				</div>
 				<div class="col-md-6 text-right right-footer">
 					<p>joshuamatthews906@yahoo.com</p>
@@ -169,6 +184,7 @@
 	<script src="resources/js/jquery-2.1.1.js"></script>
 	<script src="resources/js/main.js"></script>
 	<script src="resources/js/masonry.pkgd.min.js"></script> 
+	
 	
 	<script>
 		$('.grid').masonry({

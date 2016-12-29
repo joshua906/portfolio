@@ -45,4 +45,11 @@ jQuery(document).ready(function($){
 		var mq = window.getComputedStyle(document.querySelector('header'), '::before').getPropertyValue('content').replace(/"/g, '').replace(/'/g, "");
 		return ( mq == 'mobile' ) ? false : true;
 	}
+	//navigation Menu
+	$('#toggle').click(function() {
+   		$(this).toggleClass('active');
+		$('#overlay').toggleClass('open');
+  	});
+	
+	
 });
