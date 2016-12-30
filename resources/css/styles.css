@@ -637,7 +637,7 @@ header::before {
 
 
 .button_container {
-  position: fixed;
+  position: absolute;
   top: 5%;
   right: 2%;
   height: 27px;
