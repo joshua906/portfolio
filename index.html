@@ -7,7 +7,8 @@
 	<link href="resources/css/styles.css" rel="stylesheet" type="text/css"> <!-- Resource style -->
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	  <script src="resources/scripts/script.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+<script src="js/jquery-1.11.3.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="resources/js/modernizr.js"></script> <!-- Modernizr -->
 	
@@ -17,9 +18,37 @@
 	<title>Matthews Portfolio</title>
 </head>
 <body>
-	<header>
-	<div class="container">
-				<div class="button_container" id="toggle">
+
+<nav class="navbar class-white">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <a class="navbar-brands" href="#"><img src="resources/img/matthews-logo.png" width="125" height="55" alt=""/></a></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="defaultNavbar1">
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+<header>
+  <!--<div class="container">
+				
+		<div class="cd-logo">
+			<a href="#0">
+				<img src="resources/img/matthews-logo.png" width="125" height="55" alt=""/>
+			</a>
+		</div>
+		<div class="button_container" id="toggle">
 			  <span class="top"></span>
 			  <span class="middle"></span>
 			  <span class="bottom"></span>
@@ -35,14 +64,9 @@
 				</ul>
 			  </nav>
 			</div>
-		<div class="cd-logo">
-			<a href="#0">
-				<img src="resources/img/matthews-logo.png" width="125" height="55" alt=""/>
-			</a>
-		</div>
 
-		</div>
-	</header>
+		</div>-->
+</header>
 	
 	<main class="cd-main-content">
 	<!-- Home header -->
@@ -173,20 +197,8 @@
 			</div>
 		</div>
 	<!-- Resource jQuery -->
-	<script src="resources/js/jquery-2.1.1.js"></script>
-	<script src="resources/js/main.js"></script>
-	<script src="resources/js/masonry.pkgd.min.js"></script> 
-	
-	
-	<script>
-		$('.grid').masonry({
-		  // set itemSelector so .grid-sizer is not used in layout
-		  itemSelector: '.grid-item',
-		  // use element for option
-		  columnWidth: '.grid-sizer',
-		  percentPosition: true
-		})
-	</script>
-
+<script src="resources/js/jquery-2.1.1.js"></script>
+<script src="resources/js/main.js"></script>
+<script src="resources/js/masonry.pkgd.min.js"></script>
 </body>
 </html>

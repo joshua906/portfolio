@@ -5,71 +5,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, main {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/* -------------------------------- 
 
-Primary style
-
--------------------------------- */
-*, *::after, *::before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-html {
-  
-}
-
-body {
-  color: #33414a;
-  background-color: #f2f2f2;
-}
-
-a {
-  color: #7e4d7e;
-  text-decoration: none;
-}
 
 /* -------------------------------- 
 
@@ -79,7 +15,6 @@ Main Components
 
 header {
 	
-
  /* 
 	position: fixed;
 	z-index: 10;
@@ -822,10 +757,26 @@ p {
 a {
 	color: #222;
 }
+/************* New Navigation ***************/
+.class-white {
+    background-color: #fff;
+    border-color: ;
+}
+.navbar-inverse {
+     background-color: #fff; 
+    border-color: #080808;
+}
 
+.navbar-brands {
+    float: left;
+    height: 50px;
+    padding: 34px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
 /************ Headings *******************/
 .main-hero{
-	padding-top: 150px;
+	padding-top: 110px;
 }
 
 
