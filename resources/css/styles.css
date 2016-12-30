@@ -774,6 +774,36 @@ a {
     font-size: 18px;
     line-height: 20px;
 }
+.nav {
+    padding: 25px 0px 0px 0px;
+}
+.nav .navbar-nav .navbar-right>li>a:hover {
+    padding-top: 15px;
+    padding-bottom: 15px;
+	background-color: #fff;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 51px;
+}
+.nav li a:hover {
+	background-color: #fff;
+}
+.nav li a {
+    position: relative;
+    text-decoration: uppercase;
+    padding: 10px 22px;
+    color: #222;
+	font-size: 16px;
+	font-family: 'Arimo', sans-serif;
+}
+.nav li a:hover {
+   color: gray;
+}
+a:hover {
+	color: gray;
+}
 /************ Headings *******************/
 .main-hero{
 	padding-top: 110px;
