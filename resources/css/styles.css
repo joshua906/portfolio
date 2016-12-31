@@ -756,6 +756,8 @@ p {
 }
 a {
 	color: #222;
+	background: transparent;
+	text-decoration:none;
 }
 /************* New Navigation ***************/
 .class-white {
@@ -819,9 +821,14 @@ a:hover {
 .navbar-toggle .icon-bar {
 	background-color:#fff;
 }
-@media only screen and (max-width: 776) {
 
-	.navbar-collapse {
+
+@media only screen and (max-width: 767px) {
+.black-background {
+    background-color: #222;
+	color:#fff;
+}
+.navbar-collapse {
     padding-right: 15px;
     padding-left: 15px;
     overflow-x: visible;
@@ -832,6 +839,35 @@ a:hover {
     background-color: #222;
     margin-top: 5px;
 }
+.nav li a {
+    position: relative;
+    text-decoration: uppercase;
+    padding: 5px 22px;
+    color: #fff;
+	font-size: 16px;
+	font-family: 'Arimo', sans-serif;
+	text-align: center;
+}
+.nav li a:hover {
+    position: relative;
+    text-decoration: uppercase;
+    padding: 5px 22px;
+    color:none;
+	background-color: none;
+	font-size: 16px;
+	font-family: 'Arimo', sans-serif;
+	text-align: center;
+}	
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 35px;
+}
+.nav li:hover {
+		background-color:none;
+	}
+
+	
 }
 
 /************ Headings *******************/
